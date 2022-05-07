@@ -1,9 +1,9 @@
 
 
-#lsdkjfsldjkfsldkfjsdljfksldfj
+#sldkjfsldfj
 
  
-lskdjflsdjkfsldjfsldjfsldkjflsdkjflsdkjf
+lksdjfsldkjfsldfkj
 
 ----------------------------------
 
@@ -25,15 +25,17 @@ lskdjflsdjkfsldjfsldjfsldkjflsdkjflsdkjf
 
 # Installation 
 
-sldkjfslkdjfsldkjfsldkjfsldjflsdkjf
+lksdjfslkdjfsldfkj
 
 # Usage Information
 
-sldkjfsldkjflsdjflsdjfsldjfsldkfj
+sldkjfsldjfsdlfkj
 
 # License Information 
 
-jQuery,Bootstrap,Node
+MIT
+
+For more information on this license, please visit: Choosealicense.com/licenses/mit/
 
 # Contribute: 
 
@@ -41,13 +43,13 @@ If you'd like to make a contribution to this project, please reach out via email
 
 # Testing Instructions
 
-### sldkjfsldjfsldkfjsldjfsldkjfsldkjf
+### sdl;kfsd;lksfdl;
 
 # Questions 
 
-Should you have any questions, please feel free to reach out to me.  I can be reached via email at: williamschris83@gmail.com
+Should you have any questions, please feel free to reach out to me.  I can be reached via email at: sldjfldsfjsklj
 
-My GitHub profile is: https://github.com/Chris4562022
+My GitHub profile is: https://github.com/lsjfdlsjfdskljfk
 
 
 

@@ -77,10 +77,10 @@ const promptUser = () => {
         }
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        message: 'Please select which liscense that you have used for your project. (Check all that apply)',
-        choices: ['ES6', 'jQuery', 'Bootstrap', 'Node']
+        message: 'Please select which liscense that you have used for your project.',
+        choices: ['mit', 'gpl-3.0', 'unilicense', 'No License']
       },
       {
         type: 'input',
