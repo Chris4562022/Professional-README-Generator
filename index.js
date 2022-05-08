@@ -80,7 +80,13 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Please select which liscense that you have used for your project.',
-        choices: ['mit', 'gpl-3.0', 'unilicense', 'No License']
+        choices: ['mit', 'isc', 'No-License'],
+        validate: licenseInput => {
+          if (licenseInput.data === 'No-License')
+          return [];
+          if (licenseInput.data === 'isc')
+          return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)]'
+        }
       },
       {
         type: 'input',

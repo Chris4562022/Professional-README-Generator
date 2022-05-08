@@ -64,25 +64,69 @@
 
 // `;
 // }
+ 
+
     
 module.exports = templateData => {
-  const { title, descinfo, installIns, usageInfo, testIns, license, github, email} = templateData;
+  const { title, descinfo, installIns, usageInfo, testIns, license, github, email, licenseInput} = templateData;
+
+
+  function renderLicenseBadge(license) { 
+    if (license !== 'No-License') {
+      return `
+    ![badge](https://img.shields.io/badge/license-${license}-green)
+      `;
+    } else {
+      return ' ';
+    }
+  }
+
+  function renderLicenseLink(license) {
+    if (license !== 'no license') {
+    return `
+    [${license}](https://choosealicense.com/licenses/${license})
+      `;
+    } else {
+      return ' ';
+
+    }
+  }
+
+
+  function renderLicenseSection(license) {
+    if (!license === 'No-License') {
+    return `
+    ## [License-Information](#table-of-contents)
+    The application is covered under the following license:
+    ${renderLicenseLink(license)}
+      `;
+    } else {
+      return ' ';
+    }
+   }
+
+   
+
 return `
 
-#${title}
+# ${title}
 
  
 ${descinfo}
 
+
+
+
 ----------------------------------
 
-## Table of Contents
+# Table of Contents
 
 - [Installation](#installation) 
 
 - [Usage Information](#usage-information)
 
-- [License Information](#license-information)
+- [License Information](#license)
+${renderLicenseBadge(license)}
 
 - [Testing Instructions](#testing-instructions)
 
@@ -100,9 +144,13 @@ ${installIns}
 
 ${usageInfo}
 
-# License Information 
+# License 
+
+
 
 ${license}
+
+${renderLicenseSection(license)}
 
 For more information on this license, please visit: www.choosealicense.com/licenses/${license}/
 
