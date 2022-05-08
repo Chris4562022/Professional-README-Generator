@@ -1,54 +1,3 @@
-// // create the project title section
-// const generatePage = titleText => {
-//   if (!titleText) {
-//     return '';
-//   }
-
-//   // //description on project
-//     return `
-//       #${data.titleText}#
-//       ##${data.descInfo}
-//     `;
-// };
-
-
-
-// //create table of contents array to pageReadm
-
-// const generatePage = readmeArr => {
-// //     //string to generate the table of contents   
-//  return`
-//   # 'Project Title: ${readmeArr} ${title}
-//   concole.log(title)
-  
-
-
-//   ##Table-Of-Contents
-    
-//   # 'Description' ${readmeArr} ${descInfo}]
-
-//   [#${instalIns}]
-//   [#${usageInfo}]
-//   [#${contrGui}]
-//   [#${testIns}]
-//   [#${license}]
-    
-//   ##[Installation]#Table-Of-Contents
-//   [${installInsnput}]
-
-//   ##[Usage]#Table-Of-Contents
-//   [${usageInfoInput}]
-
-//   ##[Testing-Instructions]#Table-Of-Contents
-//   [${testInsInput}]
-//     `;
-//   };    
-
-
-// This is the given code
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
 
 // // TODO: Create a function that returns the license link
 // // If there is no license, return an empty string
@@ -62,14 +11,14 @@
 // function generateMarkdown(data) {
 //   return `# ${data.title}
 
-// `;
-// }
- 
-
     
 module.exports = templateData => {
   const { title, descinfo, installIns, usageInfo, testIns, license, github, email, licenseInput} = templateData;
 
+// // TODO: Create a function that returns a license badge based on which license is passed in
+
+// // If there is no license, return an empty string
+// function renderLicenseBadge(license) 
 
   function renderLicenseBadge(license) { 
     if (license !== 'No-License') {
@@ -80,6 +29,9 @@ module.exports = templateData => {
       return ' ';
     }
   }
+// // TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) {}
 
   function renderLicenseLink(license) {
     if (license !== 'no license') {
@@ -152,6 +104,7 @@ ${license}
 
 ${renderLicenseSection(license)}
 
+
 For more information on this license, please visit: www.choosealicense.com/licenses/${license}/
 
 # Contribute: 
@@ -174,17 +127,5 @@ My GitHub profile is: https://github.com/${github}
 
 `;
 };
-
-
-  
-  
-// function renderLicenseBadge(license) {}
-
-
-  // export function to generate entire page
-  // module.exports = generatePage
-    // destructure page data by section
-    //const { title, descinfo, ...license } = generateMarkdown;
-    //  return "Helllo Hackensack"
 
   
