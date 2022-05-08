@@ -1,9 +1,9 @@
 
 
-# dkjfhsdfsdf
+# Professional README Generator
 
  
-sdfsdfsdf
+This application was made to assist in dynamically creating a Professional README file - directly from the command line
 
 
 
@@ -31,11 +31,11 @@ sdfsdfsdf
 
 # Installation 
 
-sdfsdfsd
+To use this application, you'll need to install NPM and INQUIRER
 
 # Usage Information
 
-sdfsdfsdf
+To utalize this application, once you have NPM and INQUIRER installed, you can run the application by typeing <node index> into the command line and answer the prompts to create a Professional README file.
 
 # License 
 
@@ -45,6 +45,7 @@ isc
 
  
 
+
 For more information on this license, please visit: www.choosealicense.com/licenses/isc/
 
 # Contribute: 
@@ -53,13 +54,13 @@ If you'd like to make a contribution to this project, please reach out via email
 
 # Testing Instructions
 
-### sdfsdsdf
+### To test the application, you'll only need to type <node Index> into the command line and answer the prompts to create your README.
 
 # Questions 
 
-Should you have any questions, please feel free to reach out to me.  I can be reached via email at: sdfsdfdf
+Should you have any questions, please feel free to reach out to me.  I can be reached via email at: williamschris83@gmail.com
 
-My GitHub profile is: https://github.com/sdfsdfsdf
+My GitHub profile is: https://github.com/Chris4562022
 
 
 
